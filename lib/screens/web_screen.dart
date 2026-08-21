@@ -25,7 +25,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
     } else if (value == 'sobre') {
       showAboutDialog(
         context: context,
-        applicationName: 'douggs.com.br',
+        applicationName: 'JETBooks',
         applicationVersion: '1.0.0',
         children: const [
           SizedBox(height: 8),

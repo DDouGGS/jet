@@ -26,10 +26,16 @@ class _WebViewScreenState extends State<WebViewScreen> {
       showAboutDialog(
         context: context,
         applicationName: 'douggs.com.br',
-        applicationVersion: '1.0',
+        applicationVersion: '1.0.0',
         children: const [
           SizedBox(height: 8),
-          Text('Aplicativo que carrega o site douggs.com.br em um WebView.'),
+          Text('Carregamento webview do site jetbooks.com.br.'),
+          Text('DougGS Engenharia de Software'),
+          Text('Versão: 1.0.0'),
+          Text(''),
+          Text('Douglas Gonçalves de Souza'),
+          Text('E-mail: mail@dougg.com.br'),
+          Text('Fone: +55 (11) 97526.1603 ou 97580.3656'),
         ],
       );
     }
